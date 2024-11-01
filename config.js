@@ -2,8 +2,8 @@
 const fs = require("fs-extra");
 if (fs.existsSync(".env"))
   require("dotenv").config({ path: __dirname + "/.env" });
-global.audio = "";
-global.video = "";
+global.audio = "https://fv5-5.files.fm/down.php?i=xygcscr7dm&view&n=IMG-20241101-WA0062.jpg";
+global.video = "https://fv5-5.files.fm/down.php?i=xygcscr7dm&view&n=IMG-20241101-WA0062.jpg";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "wallyjay123@gmail.com";
@@ -16,7 +16,7 @@ global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/Wallyjaytechh";
 global.gurl = process.env.GURL || "https://wa.me/2348144317152";
 global.website = process.env.GURL || "https://wa.me/2348144317152";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/ec33ecf51f928d0a89a1b.jpg";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://fv5-5.files.fm/down.php?i=xygcscr7dm&view&n=IMG-20241101-WA0062.jpg";
 global.devs = "https://t.me/svenanjafrieda";
 global.sudo = process.env.SUDO || "2348144317152,2348155763709,2348054984935";
 global.owner = process.env.OWNER_NUMBER || "2348144317152";
@@ -55,7 +55,7 @@ module.exports = {
   ownername: process.env.OWNER_NAME || "WALLY JAY TECH",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
-  REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
+  REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "dyrbNSNtMf1CE84he61DR7Wx",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
